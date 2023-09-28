@@ -3,13 +3,12 @@
 // It contains four sections: Hero, About Me, Projects and Contact
 
 import React from 'react'
+import { Hero } from '../components/hero.jsx'
 
 export const Home = () => {
     return (
-        <div className='container-fluid'>
-            <div className='row bg-secondary-subtle' id='hero'>
-                <div className="col">This is hero</div>
-            </div>
+        <div className='container-fluid p-0'>
+            <Hero />
             <div className='row' id='about-me'>
                 <div className='col'>This is about me</div>
             </div>
