@@ -15,7 +15,7 @@ export const About = () => {
             <div className='row d-flex flex-row'>
                 <div className='col-12 col-lg d-flex flex-column justify-content-center border'>
                     <p className='text-secondary'><b className='text-black'>Full Stack Developer</b> with a background in Industrial Engineering.</p>
-                    <p className='text-secondary'>I am a dynamic <b className='text-black'>team player</b> with a strong interest in tackling complex projects. I'm deeply passionate about <b className='text-black'>computer science</b>, particularly intricate <b>algorithms and problem-solving</b>.</p>
+                    <p className='text-secondary'>I am a dynamic <b className='text-black'>team player</b> with a strong interest in tackling complex projects. I'm deeply passionate about <b className='text-black'>computer science</b>, particularly intricate <b className='text-black'>algorithms and problem-solving</b>.</p>
                     <p className='text-secondary'>Backed by experience in commercial settings, I'm also an eager <b className='text-black'>autodidact</b>, constantly seeking to acquire new skills and knowledge.</p>
                     <p className='text-secondary'>Currently <b className='text-black'>looking for new opportunities</b> to grow as a developer.</p>
                 </div>
