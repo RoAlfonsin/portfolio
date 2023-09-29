@@ -5,6 +5,7 @@
 import React from 'react'
 import { Hero } from '../components/hero.jsx'
 import { About } from '../components/about.jsx'
+import { Contact } from '../components/contact.jsx'
 
 export const Home = () => {
     return (
@@ -14,9 +15,7 @@ export const Home = () => {
             <div className='row' id='projects'>
                 <div className='col'>This is projects</div>
             </div>
-            <div className='row' id='contact'>
-                <div className='col'>This is contact</div>
-            </div>
+            <Contact />
         </div>
     )
 }
