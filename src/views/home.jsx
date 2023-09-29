@@ -5,16 +5,16 @@
 import React from 'react'
 import { Hero } from '../components/hero.jsx'
 import { About } from '../components/about.jsx'
+import { Projects } from '../components/projects.jsx'
 import { Contact } from '../components/contact.jsx'
+import heroBackground from '../assets/heroBackground.jpg'
 
 export const Home = () => {
     return (
-        <div className='container-fluid p-0 bg-light'>
+        <div className='container-fluid p-0 bg-image' style={{backgroundImage: `url(${heroBackground})`}}>
             <Hero />
             <About />
-            <div className='row' id='projects'>
-                <div className='col'>This is projects</div>
-            </div>
+            <Projects />
             <Contact />
         </div>
     )
