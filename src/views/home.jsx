@@ -4,14 +4,13 @@
 
 import React from 'react'
 import { Hero } from '../components/hero.jsx'
+import { About } from '../components/about.jsx'
 
 export const Home = () => {
     return (
-        <div className='container-fluid p-0'>
+        <div className='container-fluid p-0 bg-light'>
             <Hero />
-            <div className='row' id='about-me'>
-                <div className='col'>This is about me</div>
-            </div>
+            <About />
             <div className='row' id='projects'>
                 <div className='col'>This is projects</div>
             </div>
