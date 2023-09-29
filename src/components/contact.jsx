@@ -15,17 +15,17 @@ export const Contact = () => {
                         </Link>
                     </div>
                     <div className='col-12 col-lg-3 p-0'>
-                        <Link to='https://www.linkedin.com/in/rodrigo-alfonsin-de-la-vega' target='blank' className='btn btn-secondary w-100 m-0 rounded-0 p-2 bg-primary border border-0'>
-                            <i className='bi bi-linkedin me-2' style={{fontSize: "2rem"}}> LinkedIn</i>
-                        </Link>
-                    </div>
-                    <div className='col-12 col-lg-3 p-0'>
                         <Link to='https://github.com/RoAlfonsin' target='blank' className='btn btn-secondary w-100 m-0 rounded-0 p-2 bg-dark border border-0'>
                             <i className='bi bi-github me-2' style={{fontSize: "2rem"}}> GitHub</i>
                         </Link>
                     </div>
                     <div className='col-12 col-lg-3 p-0'>
-                        <Link to='mailto: ro@roalfonsin.com' target='blank' className='btn btn-secondary w-100 m-0 rounded-0 p-2 bg-danger border border-0'>
+                        <Link to='https://www.linkedin.com/in/rodrigo-alfonsin-de-la-vega' target='blank' className='btn btn-secondary w-100 m-0 rounded-0 p-2 bg-primary border border-0'>
+                            <i className='bi bi-linkedin me-2' style={{fontSize: "2rem"}}> LinkedIn</i>
+                        </Link>
+                    </div>
+                    <div className='col-12 col-lg-3 p-0'>
+                        <Link to='mailto: ro@roalfonsin.com' target='blank' className='btn btn-secondary w-100 m-0 rounded-0 p-2 bg-secondary border border-0'>
                             <i className='bi bi-envelope me-2' style={{fontSize: "2rem"}}> Email</i>
                         </Link>
                     </div>        
