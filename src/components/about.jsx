@@ -32,7 +32,8 @@ export const About = () => {
                         <button type='button' className='btn btn-outline-secondary m-2 fw-bold disabled' style={{minWidth: "10rem"}}>SQL</button>
                         <button type='button' className='btn btn-outline-secondary m-2 fw-bold disabled' style={{minWidth: "10rem"}}>Git</button>
                         <button type='button' className='btn btn-outline-secondary m-2 fw-bold disabled' style={{minWidth: "10rem"}}>Flask</button>
-                        <button type='button' className='btn btn-outline-secondary m-2 fw-bold disabled' style={{minWidth: "10rem"}}>SQLAlquemy</button>                     
+                        <button type='button' className='btn btn-outline-secondary m-2 fw-bold disabled' style={{minWidth: "10rem"}}>SQLAlquemy</button>
+                        <button type='button' className='btn btn-outline-secondary m-2 fw-bold disabled' style={{minWidth: "10rem"}}>Vue</button>                     
                     </div>
                 </div>
             </div>
