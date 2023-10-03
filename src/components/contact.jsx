@@ -10,7 +10,7 @@ export const Contact = () => {
             <div className='container-fluid border border-0 m-0'>
                 <div className='row d-flex flex-row'>
                     <div className='col-12 col-lg-3 p-0'>
-                        <Link to='https:wa.me/+525549504240' target='blank' className='btn btn-secondary w-100 m-0 rounded-0 p-2 bg-success border border-0'>
+                        <Link to='https://wa.me/525549504240' target='blank' className='btn btn-secondary w-100 m-0 rounded-0 p-2 bg-success border border-0'>
                             <i className='bi bi-whatsapp me-2' style={{fontSize: "2rem"}}> WhatsApp</i>
                         </Link>
                     </div>
