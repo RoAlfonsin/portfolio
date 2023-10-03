@@ -1,6 +1,7 @@
 //This section is the bitacora view, it is the view that shows the project named bitacora
 
 import React from "react";
+import { Navbar } from "../components/navbar";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import bitacoraVideo from "../assets/bitacora/bitacoraVideo.webm";
@@ -19,6 +20,8 @@ export const Bitacora = () => {
         window.scrollTo(0, 0)
     }, [])  
     return (
+        <>
+        <Navbar />
         <div className="container-fluid bg-light text-center">
         <div className="container bg-light text-center" id="">
             <h1>Bitacora</h1>
@@ -59,5 +62,6 @@ export const Bitacora = () => {
             </div>
         </div>
         </div>
+        </>
     );
 };

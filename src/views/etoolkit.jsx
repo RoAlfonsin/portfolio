@@ -3,6 +3,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import { Navbar } from "../components/navbar";
 
 import ecomVideo from "../assets/ecom/ecomVideo.webm";
 import ecomImage1 from "../assets/ecom/ecomImage01.png";
@@ -29,6 +30,8 @@ export const EcommerceToolkit = () => {
         window.scrollTo(0, 0)
     }, [])  
     return (
+        <>
+        <Navbar />
         <div className="container-fluid bg-light text-center">
         <div className="container-fluid bg-light text-center">
             <h1>E-commerce Toolkit</h1>
@@ -78,5 +81,6 @@ export const EcommerceToolkit = () => {
             </div>
         </div>
         </div>
+        </>
     );
 };

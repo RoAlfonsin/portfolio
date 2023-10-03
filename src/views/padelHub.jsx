@@ -2,6 +2,7 @@
 
 import React from "react";
 import { useEffect } from "react";
+import { Navbar } from "../components/navbar";
 
 import padelHubImage1 from '../assets/padelHub/padelHub01.png';
 import padelHubImage2 from '../assets/padelHub/padelHub02.png';
@@ -15,6 +16,7 @@ export const PadelHub = () => {
     }, [])  
     return (
         <div className="container-fluid bg-light text-center">
+            <Navbar />
             <div className="container bg-light text-center">
                 <h1>Padel Hub</h1>
                 <div className="row p-2">

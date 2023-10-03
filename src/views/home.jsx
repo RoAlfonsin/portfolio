@@ -3,6 +3,7 @@
 // It contains four sections: Hero, About Me, Projects and Contact
 
 import React from 'react'
+import { Navbar } from '../components/navbar.jsx'
 import { Hero } from '../components/hero.jsx'
 import { About } from '../components/about.jsx'
 import { Projects } from '../components/projects.jsx'
@@ -11,11 +12,14 @@ import heroBackground from '../assets/heroBackground.jpg'
 
 export const Home = () => {
     return (
+        <>
+        <Navbar />
         <div className='container-fluid p-0 bg-image' style={{backgroundImage: `url(${heroBackground})`}}>
             <Hero />
             <About />
             <Projects />
             <Contact />
         </div>
+        </>
     )
 }
