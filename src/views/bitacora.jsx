@@ -28,6 +28,7 @@ export const Bitacora = () => {
             <div className="row p-2">
                 <div className="col-12 col-lg-6 text-start d-flex flex-column justify-content-evenly">
                     <p className="lead ms-1">Web-based application designed to facilitate reservations for coworking spaces on mobile devices.</p>
+                    <p className="lead ms-1">Project Role: Full-stack developer.</p>
                     <p className="lead ms-1">Frontend: User interface optimized for mobile devices created using Javascript, React, HTML and Bootstrap.</p>
                     <p className="lead ms-1">Backend: REST API created using Python and Flask allowing users to manage reservations, buy packages, check appointments, login and register.</p>
                     <p className="lead ms-1">Database: PostgreSQL and SQLAlquemy used to manage users information, packages and appointments.</p>

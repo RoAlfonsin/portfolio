@@ -7,6 +7,7 @@ import { HashLink } from 'react-router-hash-link'
 import { Link } from 'react-router-dom'
 import heroBackground from '../assets/heroBackground.jpg'
 import bitacoraCover from '../assets/bitacora/bitacoraCover.png'
+import ecomCover from '../assets/ecom/ecomCover.png'
 
 export const Projects = () => {
     return (
@@ -17,12 +18,12 @@ export const Projects = () => {
                 </div>
                 <div className="row mb-2">
                     <div className="col-12 col-lg-6 d-flex justify-content-center p-2">
-                        <img src="https://via.placeholder.com/600x300" className="img-fluid"/>
+                        <img src={ecomCover} className="img-fluid"/>
                     </div>
                     <div className="col-12 col-lg-6 d-flex flex-column justify-content-center">
                         <h3 className="text-secondary mt-2">Ecommerce Toolkit</h3>
-                        <p className='text-secondary'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae aliquam nisl nisl vitae nisl. Donec euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae aliquam nisl nisl vitae nisl.</p>
-                        <HashLink to='/project1' className='link-secondary text-decoration-none'>
+                        <p className='text-secondary'>Web-based application designed to streamline the process of creating and managing ecommerce platforms.</p>
+                        <HashLink to='/ecom' className='link-secondary text-decoration-none'>
                             <i className='bi bi-arrow-right-circle-fill me-2' style={{fontSize: "2rem"}}>   View Project</i>
                         </HashLink>
                     </div>
