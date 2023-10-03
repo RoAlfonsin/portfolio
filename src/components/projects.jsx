@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom'
 import heroBackground from '../assets/heroBackground.jpg'
 import bitacoraCover from '../assets/bitacora/bitacoraCover.png'
 import ecomCover from '../assets/ecom/ecomCover.png'
+import padelHubCover from '../assets/padelHub/padelHubCover.png'
 
 export const Projects = () => {
     return (
@@ -22,20 +23,8 @@ export const Projects = () => {
                     </div>
                     <div className="col-12 col-lg-6 d-flex flex-column justify-content-center">
                         <h3 className="text-secondary mt-2">Ecommerce Toolkit</h3>
-                        <p className='text-secondary'>Web-based application designed to streamline the process of creating and managing ecommerce platforms.</p>
+                        <p className='text-secondary lead'>Web-based application designed to streamline the process of creating and managing ecommerce platforms.</p>
                         <HashLink to='/ecom' className='link-secondary text-decoration-none'>
-                            <i className='bi bi-arrow-right-circle-fill me-2' style={{fontSize: "2rem"}}>   View Project</i>
-                        </HashLink>
-                    </div>
-                </div>
-                <div className="row mb-2">
-                    <div className="col-12 col-lg-6 d-flex justify-content-center p-2">
-                        <img src="https://via.placeholder.com/600x300" className="img-fluid"/>
-                    </div>
-                    <div className="col-12 col-lg-6 d-flex flex-column justify-content-center">
-                        <h3 className="text-secondary mt-2">Padel Hub</h3>
-                        <p className='text-secondary'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae aliquam nisl nisl vitae nisl. Donec euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae aliquam nisl nisl vitae nisl.</p>
-                        <HashLink to='/project2' className='link-secondary text-decoration-none'>
                             <i className='bi bi-arrow-right-circle-fill me-2' style={{fontSize: "2rem"}}>   View Project</i>
                         </HashLink>
                     </div>
@@ -50,6 +39,18 @@ export const Projects = () => {
                         <Link to='/bitacora' className='link-secondary text-decoration-none'>
                             <i className='bi bi-arrow-right-circle-fill me-2' style={{fontSize: "2rem"}}>   View Project</i>
                         </Link>
+                    </div>
+                </div>
+                <div className="row mb-2">
+                    <div className="col-12 col-lg-6 d-flex justify-content-center p-2">
+                        <img src={padelHubCover} className="img-fluid"/>
+                    </div>
+                    <div className="col-12 col-lg-6 d-flex flex-column justify-content-center">
+                        <h3 className="text-secondary mt-2">Padel Hub</h3>
+                        <p className='text-secondary lead'>Web-based application designed to streamline the organization of games and events within padel, pickleball and tennis clubs.</p>
+                        <HashLink to='/padelhub' className='link-secondary text-decoration-none'>
+                            <i className='bi bi-arrow-right-circle-fill me-2' style={{fontSize: "2rem"}}>   View Project</i>
+                        </HashLink>
                     </div>
                 </div>
             </div>

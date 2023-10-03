@@ -5,6 +5,7 @@ import { Navbar } from './components/navbar.jsx'
 import { Home } from './views/home.jsx'
 import { Bitacora } from './views/bitacora.jsx'
 import { EcommerceToolkit } from './views/etoolkit.jsx'
+import { PadelHub } from './views/padelHub.jsx'
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/bitacora" element={<Bitacora />} />
-            <Route path="/padelhub" element={<h1>This is padelhub</h1>} />
+            <Route path="/padelhub" element={<PadelHub />} />
             <Route path="/ecom" element={<EcommerceToolkit />} />
           </Routes>
       </BrowserRouter>
